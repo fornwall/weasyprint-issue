@@ -6,7 +6,7 @@ This repository contains a simple HTML file:
 <img src="pngtest8rgba.png"/>
 ```
 
-Which creates:
+Which when converted using `weasyprint in.html out.pdf` creates:
 - [out-53.0.pdf](out-53.0.pdf) when converted using WeasyPrint 53.0 - WORKING
 - [out-53.1.pdf](out-53.1.pdf) when converted using WeasyPrint 53.1 - BROKEN
 - [out-53.2.pdf](out-53.2.pdf) when converted using WeasyPrint 53.2 - BROKEN
