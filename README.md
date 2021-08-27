@@ -1,4 +1,6 @@
 # WeasyPrint 53.1 and 53.2 possible issue
+WeasyPrint issue: https://github.com/Kozea/WeasyPrint/issues/1431
+
 This repository contains a simple HTML file:
 
 ```html
