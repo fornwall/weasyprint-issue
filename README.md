@@ -15,7 +15,7 @@ Which when converted using `weasyprint in.html out.pdf` creates:
 
 What BROKEN means here:
 
-- The image is not rendered when viewed in macOS Preview (checked Version 11.0 (1018.6.2)) or in Acrobat (, which also pops up a `There was an error processing a page` dialog).
+- The image is not rendered when viewed in macOS Preview (checked Version 11.0 (1018.6.2)) or in Acrobat Reader (version 2021.005.20058, which also pops up a `There was an error processing a page` dialog).
 - The image is rendered by the built in Chrome PDF viewer, and the GitHub PDF viewer (perhaps due to other error handling)?
 
 A check using qpdf shows the below output (similar output for both 53.1 and 53.2):
